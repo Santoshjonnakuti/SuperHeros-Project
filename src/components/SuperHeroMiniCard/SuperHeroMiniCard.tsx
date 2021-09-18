@@ -44,7 +44,7 @@ function SuperHerosMiniCard(props:{data:SuperHero, key?:number}) {
                     </div>
                 </li>
             </ul>
-            <a href={"/view/"+props.data.id} className="btn btn-primary">
+            <a href={"https://upbeat-bell-e61a9b.netlify.app/view/"+props.data.id} className="btn btn-primary">
                 view
             </a>
         </div>
