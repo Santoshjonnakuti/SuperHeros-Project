@@ -176,7 +176,7 @@ function Card(props:{data:SuperHero, key?:number}) {
                     </div>
                 </li>
             </ul>
-            <a href={"http://localhost:3000/"} className="btn btn-primary">
+            <a href={"https://upbeat-bell-e61a9b.netlify.app/"} className="btn btn-primary">
                 Back
             </a>
         </div>
