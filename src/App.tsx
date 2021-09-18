@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/view/:id" exact component={SuperHeroCard}/>
+        <Route path="/view/:id" component={SuperHeroCard}/>
       </Switch>
     </BrowserRouter>
   );
